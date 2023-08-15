@@ -1,0 +1,24 @@
+.showcase{
+  background: url(../../assets/showcase.jpg) no-repeat center center/cover;
+  background-color: #05a3d9;
+  height: 90vh;
+  margin-top: 50px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 500px;
+}
+
+.smallword{
+  color: #05a3d9;
+  
+}
+hr{
+  border-color: #05a3d9 !important;
+}
+/*  <hr className="w-25 mx-auto border-3" /> */
+

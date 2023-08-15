@@ -1,0 +1,58 @@
+.my-bg-primary{
+  background-color: #0a1e3e !important;
+}
+.my-bg-secondary{
+  background-color: #05a4d9;
+}
+.my-bg-dark{
+  background-color: #05152a;
+}
+.my-bg-light{
+  background-color: #eee;
+}
+.my-bg-blue{
+  background-color: #effafd;
+}
+.my-t-dark{
+  color: #2b323a;
+}
+.my-t-blue{
+  color: #05a4d9 !important;
+}
+.my-t-light{
+  color: #eee !important;
+}
+.my-btn1{
+ background-color: #05a4d9;
+ color: #eee;
+ padding: 10px 16px;
+ border: 0;
+ font-weight: 700;
+ text-decoration: none;
+}
+.my-btn1:hover{
+  border: 1px solid #05a4d9;
+  background: transparent;
+}
+
+.my-btn2{
+  background-color: #0a1e3e;
+  color: #eee;
+  padding: 10px 16px;
+  border: 1px solid #eee;
+  font-weight: 700;
+  text-decoration: none;
+ }
+ .my-btn2:hover{
+  border: 1px solid #0b1f41;
+  background: transparent;
+}
+hr{
+  border-color: #05a3d9;
+}
+/*  <hr className="w-25 mx-auto border-3" /> */
+
+.my-mt{
+  margin-top: 150px;
+}
+
