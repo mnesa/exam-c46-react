@@ -3,6 +3,7 @@ import React, { useContext, useEffect } from "react";
 import { AuthContext } from "../../context/UserContext";
 
 const Register = () => {
+  document.title = "Register";
   const { createUser } = useContext(AuthContext);
   // console.log(createUser);
   useEffect(() => {

@@ -3,6 +3,7 @@ import Product from "../Product/Product";
 import "./Shop.css";
 
 const Shop = () => {
+  document.title = "Shop";
   const [products, setProducts] = useState([]);
 
   useEffect(() => {

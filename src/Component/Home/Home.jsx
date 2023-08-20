@@ -8,6 +8,7 @@ import services2 from "../../assets/services002.jpg";
 import services3 from "../../assets/services003.jpg";
 
 const Home = () => {
+  document.title = "Home";
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -16,7 +17,7 @@ const Home = () => {
       <section className="showcase">
         <div className="container">
           <div className="content p-1">
-            <p>dolor sit amet consectetur adipisicing elit.</p>
+            <p>Dolor sit amet consectetur adipisicing elit.</p>
             <h1
               className="display-1 mb-5"
               data-aos="fade-right"

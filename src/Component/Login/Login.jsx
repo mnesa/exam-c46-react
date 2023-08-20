@@ -5,6 +5,7 @@ import { AuthContext } from "../../context/UserContext";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  document.title = "Login";
   const { singIn, googleSignIn, githubSignIn } = useContext(AuthContext);
   const navigate = useNavigate();
 
