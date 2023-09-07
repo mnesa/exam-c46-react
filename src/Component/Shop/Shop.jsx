@@ -11,15 +11,20 @@ const Shop = () => {
   }, []);
 
   useEffect(() => {
-    fetch("product.json")
+    fetch("http://localhost:5000/services")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
   return (
-    <div className="container shop my-mt">
-      {products.map((product) => (
-        <Product key={product.id} product={product}></Product>
-      ))}
+    <div>
+      <div className="container shop my-mt">
+        <h1 className="display-1">
+          All <br /> Products
+        </h1>
+        {products.map((product) => (
+          <Product key={product._id} product={product}></Product>
+        ))}
+      </div>
     </div>
   );
 };

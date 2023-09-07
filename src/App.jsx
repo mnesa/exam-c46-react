@@ -5,6 +5,7 @@ import Home from "./Component/Home/Home";
 import Shop from "./Component/Shop/Shop";
 import Register from "./Component/Register/Register";
 import Login from "./Component/Login/Login";
+import Checkout from "./Component/Checkout/Checkout";
 import PrivateRouter from "./Component/routes/PrivateRouter";
 
 function App() {
@@ -37,6 +38,12 @@ function App() {
         {
           path: "/login",
           element: <Login></Login>,
+        },
+        {
+          path: "/checkout/:id",
+          element: <Checkout></Checkout>,
+          loader: ({ params }) =>
+            fetch(`http://localhost:5000/services/${params.id}`),
         },
       ],
     },
